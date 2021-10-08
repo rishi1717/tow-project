@@ -1,0 +1,120 @@
+.navigate{
+    width: 100%;
+    background-color: rgb(52, 58, 64);
+}
+#nav-text{
+    color: white;
+    font-size: 1.2em;
+}
+
+.main-logo{
+    height: 4em;
+}
+
+.header{
+    z-index: 2;
+}
+
+.homepage {
+    background-image: url('../img/download.jpg');
+    min-height: 90vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+.divide{
+    padding-top: 1.4em;
+}
+
+.skew{
+    transform: skewX(-20deg);
+    z-index: 2;
+}
+
+.icons{
+    padding-left: 4px;
+    height: 2.6em;
+    width: 3em;
+}
+
+.page1-img{
+    height: 100%;
+    width: 100%;
+}
+
+.page2-back{
+    margin-top: 2em;
+    position: absolute;
+    background-image: url('../img/gervyn-louis-40Vlwof1tX4-unsplash.jpg');
+    min-height: 16em;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+@media (max-width: 767px) {
+    .page2-back{
+        margin-top:2em;
+        position: absolute;
+        background-image: url('../img/gervyn-louis-40Vlwof1tX4-unsplash.jpg');
+        min-height: 26em;
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        filter: blur(4px);
+        -webkit-filter: blur(4px);
+    }
+}
+
+.mt-10{
+    margin-top: 5em;
+}
+
+.service2-back1{
+    background-image: url(../img/service2back1.jpg);
+    background-size: cover;
+}
+
+.service2-back2{
+    background-image: url(../img/service2back2.jpg);
+    background-size: cover;
+}
+
+.pdlr10{
+    padding-left: 7em;
+    padding-right: 7em;
+}
+
+.pdlr5{
+    padding-left: 4em;
+    padding-right: 4em;
+}
+
+.gallerybg{
+    background-image: url(../img/gallery2bg.jpg);
+    background-size: cover;
+}
+
+.btnborder {
+    border-color: #ff9800;
+    color: orange;
+  }
+  
+.btnborder:hover {
+    background: #ff9800;
+    color: white;
+  }
+
+.foot{
+    background-color: rgb(29, 29, 29);
+    width: 101%;
+}
+
+.footlink{
+    text-decoration: none;
+}
