@@ -15,7 +15,7 @@
     z-index: 2;
 }
 
-.homepage {
+.homepagebg {
     background-image: url('../img/download.jpg');
     min-height: 90vh;
     width: 100%;
@@ -117,4 +117,56 @@
 
 .footlink{
     text-decoration: none;
+}
+
+.bgtext1 {
+    position: relative;
+}
+.bgtext1:before {
+    margin-top: 4rem;
+    content: "01";
+    position: absolute;
+    color: rgb(209, 206, 206);
+    top: -0.43em;
+    z-index: -1;
+    font-size: 4em;
+}
+
+.bgtext2 {
+    position: relative;
+}
+.bgtext2:before {
+    margin: 3rem;
+    content: "02";
+    position: absolute;
+    color: rgb(209, 206, 206);
+    top: -0.6em;
+    z-index: -1;
+    font-size: 4em;
+}
+
+.bgtext3 {
+    position: relative;
+}
+.bgtext3:before {
+    margin-left: 0.1em;
+    content: "03";
+    position: absolute;
+    color: rgb(209, 206, 206);
+    top: -0.3em;
+    z-index: -1;
+    font-size: 4em;
+}
+
+.bgtext4 {
+    position: relative;
+}
+.bgtext4:before {
+    margin-top: 3rem;
+    content: "04";
+    position: absolute;
+    color: rgb(209, 206, 206);
+    top: -0.6em;
+    z-index: -1;
+    font-size: 4em;
 }
